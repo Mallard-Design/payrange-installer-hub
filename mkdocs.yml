@@ -1,0 +1,47 @@
+site_name: PayRange University-Installer Hub
+
+theme:
+  name: material
+  favicon: images/payrange-logo.png
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+  palette:
+    scheme: default
+    primary: custom
+    accent: custom
+
+nav:
+  - Home: index.md
+  - Machine Library:
+      - Speed Queen & Alliance: speed-queen.md
+      - Maytag & Whirlpool: maytag.md
+      - LG Commercial: lg-commercial.md
+      - Dexter: dexter.md
+      - Continental: continental.md
+      - IPSO: ipso.md
+      - Wascomat & Laundrylux: wascomat.md
+  - "Mobile App Resources": mobile-app-resources.md
+  - Manage Training: manage-training.md
+  - Troubleshooting: troubleshooting.md
+  - Questions & Feedback: questions-feedback.md
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: "© 2026 PayRange LLC. | Patents: www.payrange.com/patents"
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+use_directory_urls: false
