@@ -1,0 +1,23 @@
+# MkDocs build output
+site/
+
+# Python
+__pycache__/
+*.pyc
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Virtual environments
+.venv/
+venv/
+
+# Large videos
+docs/Videos/*.mp4
