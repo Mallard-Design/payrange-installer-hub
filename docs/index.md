@@ -1,24 +1,43 @@
 ---
 title: Home
 ---
-# Welcome to the Installer Knowledge Base
 
-Welcome to the field reference database. Use the **search bar** at the top of your screen to instantly locate specific control boards and manuals, or browse by category below.
+![](images/landing-page.png)<left>
 
 ---
 
-## Hardware Installation
-Step-by-step integration guides and harness setups.
+## Welcome
 
-* [Speed Queen Quick Guide](speed-queen-quick-guide.md)
-* [Full Machine Manual Directory](Machine-Manuals.md)
-* [BluKey Installation Guide](blukey-install.md)
+The **Installer Hub** is the central knowledge base for PayRange field installers. Access installation manuals, programming references, troubleshooting guides, and support videos for every supported machine platform.
 
+---
 
-## System Configuration
-Pricing, network, and software setup procedures.
+## Quick Start
 
-* [Pricing Configuration SOP](pricing-config.md)
-* [System Troubleshooting](Troubleshooting.md)
-* [PayStation Room Setup](paystation-setup.md)
+New to an installation?
 
+1. Browse the **Machine Library** below.
+2. Select the machine manufacturer.
+3. Open the installation manual.
+4. Watch the corresponding support video (when available).
+
+---
+
+## Machine Library
+
+Browse installation guides, programming instructions, and support resources by manufacturer.
+
+| Manufacturer | Resources |
+|:-------------|:---------:|
+| **Speed Queen & Alliance** | [Open Library](speed-queen.md) |
+| **Maytag & Whirlpool** | [Open Library](maytag.md) |
+| **LG Commercial** | [Open Library](lg-commercial.md) |
+| **Dexter** | [Open Library](dexter.md) |
+| **Continental** | [Open Library](continental.md) |
+| **IPSO** | [Open Library](ipso.md) |
+| **Wascomat & LaundryLux** | [Open Library](wascomat.md) |
+
+---
+
+> **Tip:**
+> Looking for a specific machine or manual? Use the **search bar** at the top of the page to instantly locate manuals, videos, programming guides, and troubleshooting information.

@@ -1,178 +1,369 @@
-\/* --- 1. OFFICIAL & ALTERNATIVE WEB FONTS --- */
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500&family=Poppins:wght@400;500&display=swap');
+/* ==========================================================
+   PAYRANGE INSTALLER HUB
+   Material for MkDocs Theme
+   ========================================================== */
 
-/* Apply Avenir (or Nunito fallback) to the body text */
-body, .md-typeset, .md-nav__link, .md-tabs__link, .md-search__input { 
-    font-family: 'Avenir', 'Avenir LT Pro', 'Nunito Sans', sans-serif !important; 
+/* ==========================================================
+   1. GOOGLE FONTS
+   ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
+/* ==========================================================
+   2. GLOBAL TYPOGRAPHY
+   ========================================================== */
+
+body,
+.md-typeset,
+.md-nav__link,
+.md-tabs__link,
+.md-search__input {
+    font-family: "Avenir", "Avenir LT Pro", "Nunito Sans", sans-serif !important;
 }
 
-/* Apply Poppins to the headers */
-h1, h2, h3, h4, h5, h6, .md-header__title { 
-    font-family: 'Poppins', sans-serif !important; 
-}
-
-/* --- 2. GLOBAL STYLES --- */
-body {
-    background-color: #FCFCFC !important; /* PayRange Off White */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.md-header__title {
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 500 !important;
+    color: #00436B !important;
 }
 
 .md-typeset {
-    color: #000000; /* PayRange Black accent for readability */
+    color: #000;
     font-size: 16px;
 }
 
-/* --- 3. THE GRADIENT HEADER --- */
+/* ==========================================================
+   3. PAGE BACKGROUND
+   ========================================================== */
+
+body {
+    background: #FCFCFC !important;
+}
+
+/* ==========================================================
+   4. HEADER
+   ========================================================== */
+
 .md-header {
-    background: linear-gradient(to right, #00BDF4, #00CFA7) !important; /* Approved Cyan/Green Gradient */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important; 
+    background: linear-gradient(to right,#00BDF4,#00CFA7) !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,.10);
 }
 
-/* Make header text white so it pops on the gradient */
-.md-header__button, .md-header__title, .md-header__topic {
-    color: #FCFCFC !important; 
+.md-header__button,
+.md-header__title,
+.md-header__topic {
+    color: white !important;
 }
 
-/* Clean search bar inside the gradient */
+/* ==========================================================
+   5. SEARCH BAR
+   ========================================================== */
+
 .md-search__input {
-    background-color: #FCFCFC !important;
-    border-radius: 6px !important; 
-    color: #00436B !important; /* PayRange Denim text */
+    background: white !important;
+    color: #00436B !important;
+    border-radius: 8px;
 }
 
 .md-search__icon {
     color: #00436B !important;
 }
 
-/* --- 4. CONTENT HEADERS & LINKS --- */
-h1, h2, h3, h4, h5, h6 { 
-    font-weight: 500 !important; /* Set to Poppins Medium per brand mandate */
-    color: #00436B !important; /* PayRange Denim */
-}
+/* ==========================================================
+   6. LINKS
+   ========================================================== */
 
 .md-typeset a {
-    color: #00BDF4; /* PayRange Cyan */
-    text-decoration: none;
+    color: #00BDF4;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .md-typeset a:hover {
-    color: #00CFA7; /* PayRange Green */
+    color: #00CFA7;
 }
 
-/* --- 5. BUTTON STYLING --- */
+/* ==========================================================
+   7. BUTTONS
+   ========================================================== */
+
 .md-typeset .md-button {
-    background-color: #00CFA7 !important; /* PayRange Green */
-    color: #FCFCFC !important;
-    border-radius: 50px !important; 
-    font-family: 'Poppins', sans-serif !important; 
-    font-weight: 500; /* Adjusted to Poppins Medium */
-    border: none;
-    padding: 10px 24px;
-    transition: all 0.2s ease;
+
+    background:#00CFA7 !important;
+    color:white !important;
+
+    border:none;
+    border-radius:50px;
+
+    padding:10px 24px;
+
+    font-family:Poppins,sans-serif;
+    font-weight:500;
+
+    transition:.2s;
 }
 
-.md-typeset .md-button:hover {
-    background-color: #00B9BE !important; /* PayRange Teal */
-    transform: translateY(-2px);
+.md-typeset .md-button:hover{
+
+    background:#00B9BE !important;
+
+    transform:translateY(-2px);
+
 }
 
-/* --- 6. NAVIGATION TABS --- */
-.md-tabs {
-    background-color: #FCFCFC !important; 
-    color: #00436B !important;
-    border-bottom: 1px solid #E4F7FE; /* PayRange Light Sky Accent */
+/* ==========================================================
+   8. TOP NAVIGATION
+   ========================================================== */
+
+.md-tabs{
+
+    background:#FCFCFC !important;
+
+    border-bottom:1px solid #E4F7FE;
+
+    min-height:60px;
+
 }
 
-.md-tabs__link {
-    color: #00436B !important;
-    font-weight: 500;
+.md-tabs__list{
+
+    display:flex !important;
+
+    align-items:center;
+
 }
 
-.md-tabs__link--active, .md-tabs__link:hover {
-    color: #00CFA7 !important; 
+.md-tabs__item{
+
+    display:flex;
+
+    align-items:center;
+
 }
 
-/* --- 7. LAYOUT EXPANSION & CLEANUP --- */
-.md-sidebar--secondary {
-    display: none !important;
-    width: 0 !important;
-    visibility: hidden !important;
+.md-tabs__link{
+
+    display:flex;
+
+    align-items:center;
+
+    height:56px;
+
+    color:#00436B !important;
+
+    font-weight:500;
+
 }
 
-/* Expand the entire grid to use the freed-up space */
-.md-grid {
-    max-width: 1400px !important; 
+.md-tabs__link:hover,
+.md-tabs__link--active{
+
+    color:#00CFA7 !important;
+
 }
 
-/* Expand the central text area for wider manuals */
-.md-content {
-    max-width: 1000px;
-    margin: 0 auto; /* Centers the content block perfectly */
+/* ==========================================================
+   9. PAYRANGE LOGO
+   ========================================================== */
+
+.md-tabs__item:first-child .md-tabs__link{
+
+    font-size:0;
+
+    width:190px;
+
 }
 
-/* --- 8. PAYRANGE LOGO NAVIGATION --- */
+.md-tabs__item:first-child .md-tabs__link::before{
 
-/* Make navigation bar slightly taller */
-.md-tabs {
-    background-color: #FCFCFC !important;
-    border-bottom: 1px solid #E4F7FE;
-    min-height: 60px !important;
+    content:"";
+
+    width:170px;
+
+    height:40px;
+
+    display:block;
+
+    margin:auto;
+
+    background:url("../images/payrange-logo.png");
+
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-size:contain;
+
 }
 
-/* Hide Home text */
-.md-tabs__item:first-child .md-tabs__link {
-    font-size: 0 !important;
-    width: 190px;
+.md-header__button.md-logo{
+
+    display:none !important;
+
 }
 
-/* Insert PayRange logo */
-.md-tabs__item:first-child .md-tabs__link::before {
-    content: "";
+/* ==========================================================
+   10. PAGE WIDTH
+   ========================================================== */
+
+.md-grid{
+
+    max-width:1750px !important;
+
+}
+
+.md-content{
+
+    max-width:100% !important;
+
+}
+
+.md-content__inner{
+
+    max-width:1500px;
+
+    margin:auto;
+
+}
+
+/* ==========================================================
+   11. REMOVE SECONDARY SIDEBAR
+   ========================================================== */
+
+.md-sidebar--secondary{
+
+    display:none !important;
+
+}
+
+/* ============================
+   HOMEPAGE
+   ============================ */
+
+/* Hide the H1 title */
+.md-content h1 {
+    display: none;
+}
+
+/* Make homepage use the full width */
+.md-content__inner {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Remove the built-in left spacing */
+.md-main__inner {
+    margin-left: 0 !important;
+}
+
+/* Make the hero image span the content */
+.hero-image {
     display: block;
-    width: 170px;
-    height: 40px;
-    margin: 0 auto;
-
-    background-image: url("../images/payrange-logo.png");
-    background-repeat: no-repeat;
-    background-position: center 0px;
-    background-size: contain;
+    width: calc(100% + 220px);
+    max-width: none;
+    margin-left: -220px;
+    margin-top: -10px;
+    margin-bottom: 40px;
 }
 
-/* Remove Material logo from blue header */
-.md-header__button.md-logo {
-    display: none !important;
+/* ==========================================================
+   13. RESOURCE CARDS
+   ========================================================== */
+
+.resource-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:24px;
+
+    margin:40px 0;
+
 }
 
-/* Center navigation items vertically */
-.md-tabs__list {
-    align-items: center;
+.resource-card{
+
+    background:white;
+
+    border:1px solid #E4F7FE;
+
+    border-radius:16px;
+
+    padding:26px;
+
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
+
+    transition:.25s;
+
 }
 
-/* Vertically center all navigation tabs */
+.resource-card:hover{
 
-.md-tabs__list {
-    display: flex !important;
-    align-items: center !important;
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 24px rgba(0,0,0,.10);
+
 }
 
-.md-tabs__item {
-    display: flex !important;
-    align-items: center !important;
+.resource-card h3{
+
+    margin-top:0;
+
 }
 
-.md-tabs__link {
-    display: flex !important;
-    align-items: center !important;
-    height: 56px !important;
+/* ==========================================================
+   14. PDF HEADERS
+   ========================================================== */
+
+.md-typeset h3{
+
+    margin-bottom:.25rem;
+
 }
 
-/* Manage Training PDF Links */
-.md-typeset h3 a {
-    font-size: 1rem !important;
-    font-weight: 500 !important;
+.md-typeset h3 a{
+
+    font-size:1rem;
+
+    font-weight:500;
+
+}
+/* ===========================
+   Machine Library Table
+   =========================== */
+
+.md-typeset table {
+    width: 100% !important;
+    display: table !important;
+    table-layout: fixed;
+    border-collapse: collapse;
 }
 
-.md-typeset h3 {
-    margin-bottom: 0.25rem !important;
+.md-typeset table th:first-child,
+.md-typeset table td:first-child {
+    width: 75%;
+}
+
+.md-typeset table th:last-child,
+.md-typeset table td:last-child {
+    width: 25%;
+    text-align: center;
+}
+
+.md-typeset table th {
+    background: #f6f9fc;
+    font-weight: 600;
+}
+
+.md-typeset table td,
+.md-typeset table th {
+    padding: 14px 18px;
 }

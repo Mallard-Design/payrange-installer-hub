@@ -39,3 +39,5 @@ Below is the library of training manuals and reference documentation for configu
 ### Reporting & Financials
 
 * [TM-007: Sales, Reporting & Financials](PDF/Manage-Training/TM-007-Sales-Reporting-Financials.pdf)
+
+---
