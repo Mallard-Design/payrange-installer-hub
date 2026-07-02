@@ -1,5 +1,18 @@
 # PayRange Manage
 
+<div style="margin-left:20px; margin-bottom:24px;">
+    <p><strong>Installer Training</strong></p>
+
+    <a href="https://vimeo.com/851414110?fl=pl&fe=vl" target="_blank">
+        <img src="../images/manage-overview.png"
+             alt="Installer Training Video"
+             width="450"
+             style="border-radius:8px;
+                    box-shadow:0 4px 8px rgba(0,0,0,0.15);
+                    cursor:pointer;">
+    </a>
+</div>
+
 Below is the library of training manuals and reference documentation for configuring, managing, and reporting within the PayRange Manage platform.
 
 ---
