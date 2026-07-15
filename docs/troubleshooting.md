@@ -1,7 +1,6 @@
 # System Troubleshooting
 
 Below are guides to help get you started in the troubleshooting process.
-💡 Tip: Use the search bar in the upper-right corner to quickly locate machine models, harness types, programming guides, and troubleshooting resources.
 
 ---
 
@@ -16,4 +15,3 @@ Below are guides to help get you started in the troubleshooting process.
 
 📩 Can't find what you're looking for? Visit the [Questions & Feedback](questions-feedback.md) page to request documentation, report missing information, or submit feedback.
 
-<small>**Last Updated:** June 21, 2026

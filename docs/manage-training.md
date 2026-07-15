@@ -1,7 +1,7 @@
 # PayRange Manage
 
 <div style="margin-left:20px; margin-bottom:24px;">
-    <p><strong>Installer Training</strong></p>
+    <p><strong>Manage Overview</strong></p>
 
     <a href="https://vimeo.com/851414110?fl=pl&fe=vl" target="_blank">
         <img src="../images/manage-overview.png"

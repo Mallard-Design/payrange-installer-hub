@@ -1,4 +1,4 @@
-site_name: PayRange University-Installer Hub
+site_name: ""
 
 theme:
   name: material
@@ -45,3 +45,6 @@ markdown_extensions:
       alternate_style: true
 
 use_directory_urls: false
+
+extra:
+  announcement: "Community Forum Coming Soon!"
