@@ -18,7 +18,7 @@ Select a document below to view or download the PDF.
 <div style="margin-left: 20px; margin-bottom: 24px;">
     <p><strong>Account Setup: Register BluKey In App & Assign Harness / Protocol (Laundry)</strong></p>
     <a href="https://vimeo.com/640104068" target="_blank">
-        <img src="Images/mobile-app-register-blukey-thumb.png" alt="Register BluKey In App Video" width="450" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); cursor: pointer;">
+        <img src="images/reg-blukey-app.png" alt="Register BluKey In App Video" width="450" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); cursor: pointer;">
     </a>
 </div>
 
