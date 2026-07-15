@@ -4,7 +4,7 @@
     <p><strong>Manage Overview</strong></p>
 
     <a href="https://vimeo.com/851414110?fl=pl&fe=vl" target="_blank">
-        <img src="../images/manage-overview.png"
+        <img src="images/manage-overview-vid.png"
              alt="Installer Training Video"
              width="450"
              style="border-radius:8px;
