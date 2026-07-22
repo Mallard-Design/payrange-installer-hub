@@ -354,13 +354,14 @@ h6 {
 
 .md-search {
     margin-left: auto !important;
-}
-/* Fix the wide logo in the mobile navigation menu */
+/* Force the mobile menu to accept a wide logo */
 .md-nav__title .md-logo {
-    width: auto; 
+    width: auto !important; 
+    height: auto !important;
 }
 
 .md-nav__title .md-logo img {
-    max-width: 160px; /* Keeps the wide logo from overflowing the menu */
-    height: auto;
+    width: 150px !important; 
+    height: auto !important;
+    max-width: none !important;
 }
