@@ -29,19 +29,32 @@ h5,
 h6 {
     font-family: "Poppins", sans-serif !important;
     font-weight: 500 !important;
+}
+
+/* Only apply dark text in Light Mode */
+[data-md-color-scheme="default"] h1,
+[data-md-color-scheme="default"] h2,
+[data-md-color-scheme="default"] h3,
+[data-md-color-scheme="default"] h4,
+[data-md-color-scheme="default"] h5,
+[data-md-color-scheme="default"] h6 {
     color: #00436B !important;
 }
 
 .md-typeset {
-    color: #000;
     font-size: 16px;
+}
+
+[data-md-color-scheme="default"] .md-typeset {
+    color: #000;
 }
 
 /* ==========================================================
    3. PAGE BACKGROUND
    ========================================================== */
 
-body {
+/* Only apply white background in Light Mode */
+[data-md-color-scheme="default"] body {
     background: #FCFCFC !important;
 }
 
@@ -65,12 +78,16 @@ body {
    ========================================================== */
 
 .md-search__input {
-    background: white !important;
-    color: #00436B !important;
     border-radius: 8px;
 }
 
-.md-search__icon {
+/* Only apply custom search colors in Light Mode */
+[data-md-color-scheme="default"] .md-search__input {
+    background: white !important;
+    color: #00436B !important;
+}
+
+[data-md-color-scheme="default"] .md-search__icon {
     color: #00436B !important;
 }
 
@@ -93,27 +110,19 @@ body {
    ========================================================== */
 
 .md-typeset .md-button {
-
     background:#00CFA7 !important;
     color:white !important;
-
     border:none;
     border-radius:50px;
-
     padding:10px 24px;
-
     font-family:Poppins,sans-serif;
     font-weight:500;
-
     transition:.2s;
 }
 
 .md-typeset .md-button:hover{
-
     background:#00B9BE !important;
-
     transform:translateY(-2px);
-
 }
 
 /* ==========================================================
@@ -121,50 +130,39 @@ body {
    ========================================================== */
 
 .md-tabs{
-
-    background:#FCFCFC !important;
-
-    border-bottom:1px solid #E4F7FE;
-
     min-height:60px;
+}
 
+/* Only apply custom tab background in Light Mode */
+[data-md-color-scheme="default"] .md-tabs{
+    background:#FCFCFC !important;
+    border-bottom:1px solid #E4F7FE;
 }
 
 .md-tabs__list{
-
     display:flex !important;
-
     align-items:center;
-
 }
 
 .md-tabs__item{
-
     display:flex;
-
     align-items:center;
-
 }
 
 .md-tabs__link{
-
     display:flex;
-
     align-items:center;
-
     height:56px;
-
-    color:#00436B !important;
-
     font-weight:500;
+}
 
+[data-md-color-scheme="default"] .md-tabs__link{
+    color:#00436B !important;
 }
 
 .md-tabs__link:hover,
 .md-tabs__link--active{
-
     color:#00CFA7 !important;
-
 }
 
 /* ==========================================================
@@ -172,39 +170,24 @@ body {
    ========================================================== */
 
 .md-tabs__item:first-child .md-tabs__link{
-
     font-size:0;
-
     width:190px;
-
 }
 
 .md-tabs__item:first-child .md-tabs__link::before{
-
     content:"";
-
     width:170px;
-
     height:40px;
-
     display:block;
-
     margin:auto;
-
     background:url("../images/payrange-logo.png");
-
     background-repeat:no-repeat;
-
     background-position:center;
-
     background-size:contain;
-
 }
 
 .md-header__button.md-logo{
-
     display:none !important;
-
 }
 
 /* ==========================================================
@@ -212,23 +195,16 @@ body {
    ========================================================== */
 
 .md-grid{
-
     max-width:1750px !important;
-
 }
 
 .md-content{
-
     max-width:100% !important;
-
 }
 
 .md-content__inner{
-
     max-width:1500px;
-
     margin:auto;
-
 }
 
 /* ==========================================================
@@ -236,9 +212,7 @@ body {
    ========================================================== */
 
 .md-sidebar--secondary{
-
     display:none !important;
-
 }
 
 /* ============================
@@ -277,45 +251,32 @@ body {
    ========================================================== */
 
 .resource-grid{
-
     display:grid;
-
     grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-
     gap:24px;
-
     margin:40px 0;
-
 }
 
 .resource-card{
-
-    background:white;
-
-    border:1px solid #E4F7FE;
-
     border-radius:16px;
-
     padding:26px;
-
-    box-shadow:0 5px 18px rgba(0,0,0,.05);
-
     transition:.25s;
+}
 
+/* Only apply white card background in Light Mode */
+[data-md-color-scheme="default"] .resource-card{
+    background:white;
+    border:1px solid #E4F7FE;
+    box-shadow:0 5px 18px rgba(0,0,0,.05);
 }
 
 .resource-card:hover{
-
     transform:translateY(-5px);
-
     box-shadow:0 10px 24px rgba(0,0,0,.10);
-
 }
 
 .resource-card h3{
-
     margin-top:0;
-
 }
 
 /* ==========================================================
@@ -323,18 +284,14 @@ body {
    ========================================================== */
 
 .md-typeset h3{
-
     margin-bottom:.25rem;
-
 }
 
 .md-typeset h3 a{
-
     font-size:1rem;
-
     font-weight:500;
-
 }
+
 /* ===========================
    Machine Library Table
    =========================== */
@@ -358,8 +315,12 @@ body {
 }
 
 .md-typeset table th {
-    background: #f6f9fc;
     font-weight: 600;
+}
+
+/* Only apply table header background in Light Mode */
+[data-md-color-scheme="default"] .md-typeset table th {
+    background: #f6f9fc;
 }
 
 .md-typeset table td,
