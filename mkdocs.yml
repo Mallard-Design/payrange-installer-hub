@@ -4,6 +4,7 @@ theme:
   name: material
   custom_dir: overrides
   favicon: images/payrange-logo.png
+  logo: images/payrange-logo.png
   features:
     - navigation.tabs
     - navigation.tabs.sticky
